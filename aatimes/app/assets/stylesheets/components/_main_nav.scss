@@ -5,7 +5,7 @@
   justify-content: space-between;
   flex-direction: row;
   padding: 20px;
-  
+
 }
 
 .left-nav > ul,
@@ -23,11 +23,12 @@
       text-transform: uppercase;
       margin-right: 10px;
       font-weight: 700;
+
     }
   }
 
   span {
-    
+
   }
 }
 
@@ -41,18 +42,18 @@
     }
 
     > li:last-of-type {
-      
+
     }
   }
-  
+
   i {
-    
+      font-size: 16px;
   }
+
+
 }
 
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
-  
+  background-color: $lightest-gray;
 }
-
-    

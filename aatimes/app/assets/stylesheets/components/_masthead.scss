@@ -8,6 +8,10 @@
 	position: relative;
 }
 
+.language-nav:first-child{
+	font-weight: bold;
+}
+
 .language-nav {
 	position: absolute;
 	top: -15px;
@@ -17,6 +21,8 @@
 	border-bottom: none;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
+
+
 
 	a {
 		margin: 0 5px;
@@ -42,6 +48,7 @@
 	font-size: 11px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	;
 
 	li {
 		margin-left: 10px;
@@ -61,7 +68,7 @@
 	}
 
 	a,
-	button, 
+	button,
 	time {
 		margin-right: 10px;
 	}
