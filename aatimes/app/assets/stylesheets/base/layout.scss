@@ -8,6 +8,11 @@ html {
 
 body {
 	// ...
+	width: 80%;
+	margin: 0 auto;
+	font-family: $serif;
+	font-size: 12px;
+	
 }
 
 button {
@@ -47,4 +52,9 @@ hr {
 .hr-top {
 	height: 2px;
 	margin-bottom: 1px;
+}
+
+.fa-solid {
+	font-size: 16px;
+
 }

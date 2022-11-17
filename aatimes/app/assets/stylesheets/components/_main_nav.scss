@@ -1,19 +1,28 @@
 @use '../variables' as *;
 
 .main-nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 20px;
   
 }
 
 .left-nav > ul,
 .right-nav > ul {
-  
+  display: flex;
+  align-items:flex-end;
 }
 
 .left-nav {
 
   > ul {
     > li {
-      
+      font-family: $serif;
+      font-size: 0.6875rem;
+      text-transform: uppercase;
+      margin-right: 10px;
+      font-weight: 700;
     }
   }
 
@@ -25,7 +34,10 @@
 .right-nav  {
   > ul {
     > li {
-      
+      font-family: $serif;
+      font-size: 0.6875rem;
+      text-transform: uppercase;
+      margin-left: 10px;
     }
 
     > li:last-of-type {
